@@ -42,6 +42,7 @@ function PageHeader(props){
           </div>
           <div className="date-location">
             <div>Full Time: September 8th, 2021</div>
+            <div>In-Person Full Time: September 9th, 2021</div>
             <div>Internship: September, 15th 2021</div>
             <div>Virtual - Handshake</div>
           </div>
