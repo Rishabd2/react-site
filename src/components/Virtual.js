@@ -18,7 +18,7 @@ function Virtual(props){
         The link to the resources from both sessions are below.
       </div>
 
-      <a href="https://illinois.joinhandshake.com/events/658230">February 3rd<br/> 6:00 pm CDT</a>
+      <a href="https://illinois.zoom.us/j/86716900466?pwd=Y0RMZjhnZHBNZWVGaUFBMnc2cTRzQT09#success">September 2nd<br/> 6:00 pm CST</a>
 
     </div>
   );
