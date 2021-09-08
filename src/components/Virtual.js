@@ -6,11 +6,12 @@ function Virtual(props){
       <h2 id="content_header">Virtual Career Fair Information</h2>
       <div className="info">
         This year's career fair will be hosted virtually through Handshake!
-        Below are two tutorials to help you set up your Handshake account and navigate the website.
+        Below is a video along with some resources with information on how to navigate Handshake and sign up for the career fair.
       </div>
 
-      <a href="../tutorials/tutorial1.pdf">Tutorial 1</a>
-      <a href="../tutorials/tutorial2.pdf">Tutorial 2</a>
+      <a href="https://drive.google.com/file/d/1gJPdUTVxZNQCGwjAT3WnYJQBBn8uA92_/view?usp=sharing">Handshake Training Video</a>
+      <a href="https://docs.google.com/presentation/d/1cbvHL0AfPq6c1f22ABLzOrHjaWT9lBGtxDrP754hFEk/edit?usp=sharing">Handshake Training Slides</a>
+      <a href="https://docs.google.com/document/d/14eniapgRyB1YUfEXBFbgN72gHR_LOoE4vXhI0UvXZSM/edit?usp=sharing">Handshake Training FAQ</a>
 
 
       <div className="info">
