@@ -9,8 +9,8 @@ function Days(props){
             Below are the CareerEco links to the fair information as well as which companies will be attending.
             </div>
     
-            <a href="https://illinois.joinhandshake.com/career_fairs/23691"> September 8th: <br/> Internship</a>
-            <a href="https://illinois.joinhandshake.com/career_fairs/23673?ref=events-search"> September 15th: <br/> Full-time Employement</a>
+            <a href="https://illinois.joinhandshake.com/career_fairs/23691"> September 8th: <br/>Full-time Employement</a>
+            <a href="https://illinois.joinhandshake.com/career_fairs/23673?ref=events-search"> September 15th: <br/>Internship</a>
             {/* <a href="https://careereco.com/Fair/Schedule?fairId=49c73a49-7ec5-419b-a8f3-abf401828800">Company List</a> */}
     
           </div>
