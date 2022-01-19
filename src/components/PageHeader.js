@@ -41,10 +41,10 @@ function PageHeader(props){
             Illinois Engineering <span className="orange">Career Fair</span>
           </div>
           <div className="date-location">
-            <div>Full Time: September 8th, 2021</div>
-            <div>In-Person Full Time: September 9th, 2021</div>
-            <div>Internship: September, 15th 2021</div>
-            <div>Virtual - Handshake</div>
+            <div>Name Tag Collection: February 4th, 2022</div>
+            <div>Reverse Career Fair: February 7th, 2022</div>
+            <div>In-Person Career Fair: February 8th, 2022</div>
+            <div>Virtual Career Fair - Handshake: February 11th, 2022</div>
           </div>
         </div>
       </div>

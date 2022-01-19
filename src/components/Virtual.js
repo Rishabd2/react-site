@@ -5,8 +5,7 @@ function Virtual(props){
     <div className="virtual">
       <h2 id="content_header">Virtual Career Fair Information</h2>
       <div className="info">
-        This year's career fair will be hosted virtually through Handshake!
-        Below is a video along with some resources with information on how to navigate Handshake and sign up for the career fair.
+        Below is a video along with some resources with information on how to navigate Handshake and sign up for the Virtual Career Fair.
       </div>
 
       <a href="https://drive.google.com/file/d/1gJPdUTVxZNQCGwjAT3WnYJQBBn8uA92_/view?usp=sharing">Handshake Training Video</a>
@@ -14,12 +13,12 @@ function Virtual(props){
       <a href="https://docs.google.com/document/d/14eniapgRyB1YUfEXBFbgN72gHR_LOoE4vXhI0UvXZSM/edit?usp=sharing">Handshake Training FAQ</a>
 
 
-      <div className="info">
+      {/* <div className="info">
         Additionally, EXPO Committee will be hosting a Zoom session to answer outstanding student questions and offer some advice for success at an online career fair!
         The link to the zoom session can be found below.
       </div>
 
-      <a href="https://illinois.zoom.us/j/86716900466?pwd=Y0RMZjhnZHBNZWVGaUFBMnc2cTRzQT09#success">September 2nd<br/> 6:00 pm CST</a>
+      <a href="https://illinois.zoom.us/j/86716900466?pwd=Y0RMZjhnZHBNZWVGaUFBMnc2cTRzQT09#success">September 2nd<br/> 6:00 pm CST</a> */}
 
     </div>
   );
