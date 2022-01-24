@@ -18,9 +18,6 @@ function App() {
         <a href="https://www.instagram.com/ec_illinois/?hl=en">
           <img className="sociallink" src="./images/instagram.png"></img>
         </a>
-        <a href="https://twitter.com/EC_UIUC">
-          <img className="sociallink" src="./images/twitter.png"></img>
-        </a>
       </nav>
       <PageHeader />
       <Information />
