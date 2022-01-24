@@ -84,13 +84,13 @@ nav img {
 }
 
 /* desktop */
-@media only screen and (min-width: 450px) {
+@media only screen and (min-width: 900px) {
   .info {
     font-size: 30px;
   }
   .info-facts {
     position: relative;
-    text-align: left;
+    /* text-align: left; */
     z-index: 20;
     padding-top: 15%;
   }
@@ -148,7 +148,7 @@ nav img {
 }
 
 /* mobile */
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 900px) {
   .main-logo {
     text-align: center;
     font-size: 100%;
@@ -217,13 +217,16 @@ nav img {
     text-align: center;
     margin-bottom: 5%;
   }
+  .schedule-container{
+    font-size: 10%;
+  }
 }
 
 .temp {
   display: flex;
 }
 
-.schedule-table {
+/* .schedule-table {
   margin-left: auto;
   margin-right: auto;
   text-align: center;
@@ -231,8 +234,54 @@ nav img {
   font-family: "Montserrat", sans-serif;
   color: #13294b;
   display: inline-block;
+} */
+
+.schedule-container{
+  margin-top: 5%;
+  display: flex;
+  flex-flow: row nowrap;
+  flex: 1 1 auto;
+  width: auto;
+  justify-content: center;
+  align-items: center;
+  font-size: 70%;
 }
 
+.schedule-name{
+  display: flex;
+  /* width: 50%; */
+  flex-flow: column nowrap;
+  /* align-content:center; */
+  text-align: end;
+  color: white;
+  position: relative;
+  /* margin-left: 5%; */
+  /* font-size: small; */
+  
+  
+}
+.schedule-date{
+  
+  margin-left: 2%;
+  position: relative;
+  /* width: 50%; */
+  flex-flow: column wrap;
+  align-content: center;
+  text-align: left;
+  color: #e84a27;
+}
+
+.schedule-location{
+  display: flex;
+  /* width: 33.3%; */
+  flex-flow: column nowrap;
+  /* align-content:center; */
+  text-align: start;
+  color: white;
+  position: relative;
+  margin-left: 2%;
+  
+}
 .table-color {
   background-color: #eee;
 }
@@ -251,7 +300,7 @@ nav img {
 
 .info-facts {
   position: relative;
-  text-align: center;
+  /* text-align: center; */
   z-index: 20;
   color: white;
 }

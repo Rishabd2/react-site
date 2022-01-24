@@ -40,13 +40,30 @@ function PageHeader(props){
           <div className="main-logo">
             Illinois Engineering <span className="orange">Career Fair</span>
           </div>
-          <div className="date-location">
-            <div>Name Tag Collection: February 4th, 2022</div>
-            <div>Reverse Career Fair: February 7th, 2022</div>
-            <div>In-Person Career Fair: February 8th, 2022</div>
-            <div>Virtual Career Fair - Handshake: February 11th, 2022</div>
+          <div className="schedule-container">
+            <div className="schedule-name">
+              <div>Name Tag Collection</div>
+              <div>Reverse Career Fair</div>
+              <div>In-Person Career Fair</div>
+              <div>Virtual Career Fair</div>
+            </div>
+            <div className="schedule-date">
+              <div>February 4th</div>
+              <div>February 7th</div>
+              <div>February 8th</div>
+              <div>February 11th</div>
+            </div>
+            <div className="schedule-location">
+              <div>Grainger Library</div>
+              <div>Illini Union</div>
+              <div>Illini Union</div>
+              <div>Handshake</div>
+            </div>
           </div>
+          
+          
         </div>
+        
       </div>
     </div>
   );
