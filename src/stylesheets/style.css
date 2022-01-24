@@ -128,7 +128,8 @@ nav img {
     padding: 1em 1em;
     text-decoration: none;
     display: block;
-    margin: 0px 40%;
+    margin-left: 2%;
+    margin-right: 2%;
     font-family: "Montserrat", sans-serif;
     text-align: center;
     margin-bottom: 1%;
@@ -140,10 +141,21 @@ nav img {
     padding: 1em 1em;
     text-decoration: none;
     display: block;
-    margin: 0px 40%;
+    margin-left: 2%;
+    margin-right: 2%;
     font-family: "Montserrat", sans-serif;
     text-align: center;
-    margin-bottom: 1%;
+    margin-bottom: 2%;
+  }
+
+  .box-row{
+    display: flex;
+    width: auto;
+    /* justify-self: auto; */
+    justify-items: center;
+    justify-content: center;
+    
+    flex-flow: row wrap;
   }
 }
 

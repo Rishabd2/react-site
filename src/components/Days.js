@@ -8,11 +8,11 @@ function Days(props){
             This semester's career fair will have one day hosted in-person, and one day hosted virtually.
             Below are the Handshake links to the fair information as well as which companies will be attending.
             </div>
-    
-            <a href="https://illinois.joinhandshake.com/stu/career_fairs/28603"> February 8th: <br/>In-Person Fair</a>
-            <a href="https://illinois.joinhandshake.com/stu/career_fairs/28715"> February 11th: <br/>Virtual Fair</a>
-            {/* <a href="https://careereco.com/Fair/Schedule?fairId=49c73a49-7ec5-419b-a8f3-abf401828800">Company List</a> */}
-    
+            <div className="box-row">
+              <a href="https://illinois.joinhandshake.com/stu/career_fairs/28603"> February 8th: <br/>In-Person Fair</a>
+              <a href="https://illinois.joinhandshake.com/stu/career_fairs/28715"> February 11th: <br/>Virtual Fair</a>
+            </div>
+            
           </div>
         );
 
