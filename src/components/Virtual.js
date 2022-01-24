@@ -7,10 +7,12 @@ function Virtual(props){
       <div className="info">
         Below is a video along with some resources with information on how to navigate Handshake and sign up for the Virtual Career Fair.
       </div>
-
+      <div className="box-row">
       <a href="https://drive.google.com/file/d/1gJPdUTVxZNQCGwjAT3WnYJQBBn8uA92_/view?usp=sharing">Handshake Training Video</a>
       <a href="https://docs.google.com/presentation/d/1cbvHL0AfPq6c1f22ABLzOrHjaWT9lBGtxDrP754hFEk/edit?usp=sharing">Handshake Training Slides</a>
       <a href="https://docs.google.com/document/d/14eniapgRyB1YUfEXBFbgN72gHR_LOoE4vXhI0UvXZSM/edit?usp=sharing">Handshake Training FAQ</a>
+      </div>
+      
 
 
       {/* <div className="info">
