@@ -86,7 +86,7 @@ nav img {
 /* desktop */
 @media only screen and (min-width: 450px) {
   .info {
-    font-size: 36px;
+    font-size: 30px;
   }
   .info-facts {
     position: relative;
