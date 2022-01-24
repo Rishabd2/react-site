@@ -92,7 +92,7 @@ nav img {
     position: relative;
     /* text-align: left; */
     z-index: 20;
-    padding-top: 15%;
+    padding-top: 10%;
   }
   td {
     padding: 20px;
@@ -144,6 +144,10 @@ nav img {
     font-family: "Montserrat", sans-serif;
     text-align: center;
     margin-bottom: 1%;
+  }
+  .schedule-container{
+    margin-top: 2%;
+    font-size: 90%;
   }
 }
 
@@ -218,7 +222,8 @@ nav img {
     margin-bottom: 5%;
   }
   .schedule-container{
-    font-size: 10%;
+    font-size: 3.1vw;
+    margin-top: 5%;
   }
 }
 
@@ -237,14 +242,14 @@ nav img {
 } */
 
 .schedule-container{
-  margin-top: 5%;
+  
   display: flex;
   flex-flow: row nowrap;
   flex: 1 1 auto;
   width: auto;
   justify-content: center;
   align-items: center;
-  font-size: 70%;
+  /* font-size: 3.1vw; */
 }
 
 .schedule-name{
