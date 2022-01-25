@@ -84,15 +84,14 @@ nav img {
 }
 
 /* desktop */
-@media only screen and (min-width: 450px) {
+@media only screen and (min-width: 900px) {
   .info {
     font-size: 30px;
   }
   .info-facts {
     position: relative;
-    text-align: left;
     z-index: 20;
-    padding-top: 15%;
+    padding-top: 10%;
   }
   td {
     padding: 20px;
@@ -146,21 +145,25 @@ nav img {
     font-family: "Montserrat", sans-serif;
     text-align: center;
     margin-bottom: 2%;
+    
+  }
+  .schedule-container{
+    margin-top: 2%;
+    font-size: 75%;
+    margin-bottom: 2%;
   }
 
   .box-row{
     display: flex;
     width: auto;
-    /* justify-self: auto; */
     justify-items: center;
     justify-content: center;
-    
     flex-flow: row wrap;
   }
 }
 
 /* mobile */
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 900px) {
   .main-logo {
     text-align: center;
     font-size: 100%;
@@ -229,20 +232,58 @@ nav img {
     text-align: center;
     margin-bottom: 5%;
   }
+  .schedule-container{
+    font-size: 3.1vw;
+    margin-top: 5%;
+  }
+
+  .schedule-name{
+    margin: 2%;
+  }
+  .schedule-date{
+    margin: 2%;
+  }
 }
 
 .temp {
   display: flex;
 }
 
-.schedule-table {
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-  padding-bottom: 2em;
-  font-family: "Montserrat", sans-serif;
-  color: #13294b;
-  display: inline-block;
+.schedule-container{
+  
+  display: flex;
+  flex-flow: row nowrap;
+  flex: 1 1 auto;
+  width: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.schedule-name{
+  display: flex;
+  flex-flow: column nowrap;
+  text-align: end;
+  color: white;
+  position: relative;  
+}
+
+.schedule-date{
+  
+  margin-left: 2%;
+  position: relative;
+  flex-flow: column wrap;
+  align-content: center;
+  text-align: left;
+  color: #e84a27;
+}
+
+.schedule-location{
+  display: flex;
+  flex-flow: column nowrap;
+  text-align: start;
+  color: white;
+  position: relative;
+  margin-left: 2%;
 }
 
 .table-color {
@@ -263,7 +304,6 @@ nav img {
 
 .info-facts {
   position: relative;
-  text-align: center;
   z-index: 20;
   color: white;
 }
