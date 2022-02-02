@@ -48,7 +48,7 @@ function PageHeader(props){
               <div>Virtual Career Fair</div>
             </div>
             <div className="schedule-date">
-              <div>February 4th</div>
+              <div>February 7th</div>
               <div>February 7th</div>
               <div>February 8th</div>
               <div>February 11th</div>
