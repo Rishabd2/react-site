@@ -1,7 +1,5 @@
 import React from "react";
 import PageHeader from "./PageHeader";
-import InterviewLocations from "./InterviewLocations";
-import Volunteer from "./Volunteer";
 import Virtual from "./Virtual";
 import Days from "./Days";
 import Information from "./Information";
@@ -17,6 +15,9 @@ function App() {
         </a>
         <a href="https://www.instagram.com/ec_illinois/?hl=en">
           <img className="sociallink" src="./images/instagram.png"></img>
+        </a>
+        <a href="">
+          <img className="sociallink" src="./images/linkedin.png"></img>
         </a>
       </nav>
       <PageHeader />

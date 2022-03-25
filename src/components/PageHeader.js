@@ -1,6 +1,7 @@
 import React from "react";
 
-
+//TODO: Store background images locally
+//TODO: Make calendar not hard coded
 function PageHeader(props){
   return (
     <div className="wave-info">
@@ -35,7 +36,8 @@ function PageHeader(props){
             }}
           />
         </div>
-        <div className="info-facts">
+      </div>
+      <div className="info-facts">
           <img src="./images/expo.png"></img>
           <div className="main-logo">
             Illinois Engineering <span className="orange">Career Fair</span>
@@ -60,14 +62,8 @@ function PageHeader(props){
               <div>Handshake</div>
             </div>
           </div>
-          
-          
         </div>
-        
-      </div>
     </div>
   );
 }
 export default PageHeader;
-
-// <div>9:00 am – 6:00 pm</div>

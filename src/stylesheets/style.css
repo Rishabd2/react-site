@@ -1,3 +1,4 @@
+/* Figure out how to split these into multiple files for modularity. */
 body {
   margin: 0;
   font-family: sans-serif;
@@ -53,7 +54,7 @@ tr a:hover {
   font-size: 64px;
   font-weight: 800;
 }
-
+/* Fact elements are awkwardly far apart on desktop */
 .facts_container {
   display: flex;
   font-family: "Montserrat", sans-serif;
