@@ -11,14 +11,16 @@ function parseEvents(events){
 
   for(let idx in events){
     let event = events[idx]
-    
-    if(event.description.includes("#SITE")){
+    if(event.description){
+      if(event.description.includes("#SITE")){
       
-      names.push(event.summary)
-      dates.push(new Date(event.start.dateTime))
-      locs.push(event.location)
-      links.push(event.htmlLink)
+        names.push(event.summary)
+        dates.push(new Date(event.start.dateTime))
+        locs.push(event.location.split(',')[0])
+        links.push(event.htmlLink)
+      }
     }
+    
     
   }
   return {names, dates, locs, links}
@@ -43,7 +45,7 @@ function Schedule(props){
     
   },[])
 
-  if (!events || !events[0].description) return null;
+  if (!events ) return null;
 
   const {names, dates, locs, links} = parseEvents(events)
   
