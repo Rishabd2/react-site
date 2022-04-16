@@ -268,6 +268,10 @@ nav img {
   position: relative;  
 }
 
+.schedule-name a {color: inherit;}
+.schedule-name a:link {text-decoration: none;}
+.schedule-name a:visited {text-decoration: none;}
+
 .schedule-date{
   
   margin-left: 2%;
