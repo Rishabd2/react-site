@@ -43,7 +43,7 @@ function Schedule(props){
     
   },[])
 
-  if (!events) return null;
+  if (!events || !events[0].description) return null;
 
   const {names, dates, locs, links} = parseEvents(events)
   
