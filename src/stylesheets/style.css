@@ -312,7 +312,7 @@ nav img {
   z-index: 20;
   color: white;
 }
-
+.info-facts a {color: inherit;}
 svg {
   width: 100%;
   height: auto;
