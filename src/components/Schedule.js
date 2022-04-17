@@ -1,7 +1,7 @@
 import React, {useState, useEffect} from "react";
 import axios from "axios";
 import ScheduleComp from './ScheduleComp'
-let backend_url = 'http://localhost:8000'
+let backend_url = 'https://expo-backend-site.herokuapp.com'
 
 function parseEvents(events){
   let names = []
