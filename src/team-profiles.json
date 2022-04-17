@@ -1,5 +1,5 @@
-{
-    "codirectors":{
+[
+    {
         "pretty_name": "Co-Directors",
         "persons":[
             {
@@ -14,7 +14,7 @@
             }
         ]
     },
-    "internal":{
+    {
         "pretty_name": "Internal Affairs",
         "persons":[
             {
@@ -29,7 +29,7 @@
             }
         ]
     },
-    "sec":{
+    {
         "pretty_name": "Secretaries",
         "persons":[
             {
@@ -43,7 +43,7 @@
             }
         ]
     },
-    "volunteer":{
+    {
         "pretty_name": "Volunteer Coordinators",
         "persons":[
             {
@@ -72,7 +72,7 @@
             }
         ]
     },
-    "reverse":{
+    {
         "pretty_name": "Reverse Career Fair Coordinators",
         "persons":[
             {
@@ -101,7 +101,7 @@
             }
         ]
     },
-    "publicity":{
+    {
         "pretty_name": "Publicity",
         "persons":[
             {
@@ -114,7 +114,7 @@
             }
         ]
     },
-    "tech":{
+    {
         "pretty_name": "Tech Coordinators",
         "persons":[
             {
@@ -130,4 +130,4 @@
             }
         ]
     }
-}
+]
