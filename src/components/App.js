@@ -4,6 +4,7 @@ import Virtual from "./Virtual";
 import Days from "./Days";
 import Information from "./Information";
 import Footer from "./Footer";
+import TeamProfile from "./TeamProfile";
 
 function App() {
   return (
@@ -24,7 +25,9 @@ function App() {
       <Information />
       <Days />
       <Virtual />
+      <TeamProfile />
       <Footer />
+      
     </div>
   );
 }
