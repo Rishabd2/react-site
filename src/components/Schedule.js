@@ -2,6 +2,7 @@ import React, {useState, useEffect} from "react";
 import axios from "axios";
 import ScheduleComp from './ScheduleComp'
 let backend_url = 'https://expo-backend-site.herokuapp.com'
+// let backend_url = 'http://localhost:3002'
 
 function parseEvents(events){
   let names = []
@@ -29,10 +30,11 @@ function parseEvents(events){
 function Schedule(props){
 
   const [events, setEvents] = useState(null)
-
+  const [calURL, setCalURL] = useState(null)
   useEffect(() =>{
-    axios.get(backend_url + '/api/calevents').then(resp =>{
-      setEvents(resp.data)
+    axios.get(backend_url + '/api/cal').then(resp =>{
+      setCalURL(resp.data["cal_url"])
+      setEvents(resp.data.items)
       
     } )
     
@@ -44,11 +46,15 @@ function Schedule(props){
   
 
   return(
+    <>
     <div className="schedule-container">
       <ScheduleComp className="schedule-name" e_data={{items: names, links: links}} />
       <ScheduleComp className="schedule-date" e_data={{items: dates,  links: links}} />
       <ScheduleComp className="schedule-location" e_data={{items: locs, links: links}} />
     </div>
+    <a href={calURL}><img id="calendar-icon" src="./images/calendar.png" ></img></a>
+    </>
+    
   )
     
     // return (
