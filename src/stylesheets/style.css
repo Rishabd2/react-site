@@ -1,4 +1,8 @@
 /* Figure out how to split these into multiple files for modularity. */
+
+
+
+
 body {
   margin: 0;
   font-family: sans-serif;
@@ -173,7 +177,7 @@ nav img {
     position: relative;
     text-align: left;
     z-index: 20;
-    margin-top: 40%;
+    padding-top: 20%;
   }
   .date-location {
     font-size: 51%;

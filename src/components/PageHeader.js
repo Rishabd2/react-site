@@ -44,7 +44,7 @@ function PageHeader(props){
             Illinois Engineering <span className="orange">Career Fair</span>
           </div>
           <Schedule />
-        </div>
+      </div>
     </div>
   );
 }
