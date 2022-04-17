@@ -43,14 +43,12 @@ function Schedule(props){
   const {names, dates, locs, links} = parseEvents(events)
   
 
-  return(<>
+  return(
     <div className="schedule-container">
       <ScheduleComp className="schedule-name" e_data={{items: names, links: links}} />
       <ScheduleComp className="schedule-date" e_data={{items: dates}} />
       <ScheduleComp className="schedule-location" e_data={{items: locs}} />
     </div>
-    
-    </>
   )
     
     // return (
