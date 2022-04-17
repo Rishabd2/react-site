@@ -39,7 +39,7 @@ function PageHeader(props){
         </div>
       </div>
       <div className="info-facts">
-          <img src="./images/expo.png"></img>
+          <img src="./images/expo_header.png"></img>
           <div className="main-logo">
             Illinois Engineering <span className="orange">Career Fair</span>
           </div>

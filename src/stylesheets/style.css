@@ -52,6 +52,7 @@ tr a:hover {
 }
 
 .main-logo {
+  padding-top: 10px;
   text-align: center;
   color: white;
   z-index: 20;
