@@ -52,7 +52,7 @@ function Schedule(props){
       <ScheduleComp className="schedule-date" e_data={{items: dates,  links: links}} />
       <ScheduleComp className="schedule-location" e_data={{items: locs, links: links}} />
     </div>
-    <a href={calURL}><img id="calendar-icon" src="./images/calendar.png" ></img></a>
+    <a href={calURL}><img id="calendar-icon" src="./images/calendar_simple.png" ></img></a>
     </>
     
   )
