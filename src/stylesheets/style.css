@@ -480,3 +480,8 @@ h2 {
   width: 4em;
   height: 4em;
 }
+
+#calendar-icon{
+  width: 5%;
+  height: auto;
+}
