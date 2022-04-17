@@ -276,6 +276,9 @@ nav img {
 .schedule-name a {color: inherit;}
 .schedule-name a:link {text-decoration: none;}
 .schedule-name a:visited {text-decoration: none;}
+.schedule-location a {color: inherit;}
+.schedule-location a:link {text-decoration: none;}
+.schedule-location a:visited {text-decoration: none;}
 
 .schedule-date{
   
@@ -286,6 +289,7 @@ nav img {
   text-align: left;
   color: #e84a27;
 }
+.schedule-date a:link {text-decoration: none;}
 
 .schedule-location{
   display: flex;

@@ -46,8 +46,8 @@ function Schedule(props){
   return(
     <div className="schedule-container">
       <ScheduleComp className="schedule-name" e_data={{items: names, links: links}} />
-      <ScheduleComp className="schedule-date" e_data={{items: dates}} />
-      <ScheduleComp className="schedule-location" e_data={{items: locs}} />
+      <ScheduleComp className="schedule-date" e_data={{items: dates,  links: links}} />
+      <ScheduleComp className="schedule-location" e_data={{items: locs, links: links}} />
     </div>
   )
     

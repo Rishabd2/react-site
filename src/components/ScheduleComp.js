@@ -1,17 +1,16 @@
 import React from "react";
 
-function linkArr(e_data){
-    let contents = []
+function linkWrapper(contents, links){
+    let new_contents = []
 
-    for (let i = 0; i < e_data.items.length; i++){
-        console.log(e_data.links[i])
-        contents.push(<div>
-            <a href={e_data.links[i]}>
-                {e_data.items[i]}
+    for (let i = 0; i < contents.length; i++){
+        new_contents.push(<div>
+            <a href={links[i]}>
+                {contents[i]}
             </a>
         </div>)
     }
-    return contents
+    return new_contents
 
 }
 
@@ -39,13 +38,13 @@ function genArr(e_data){
 
 function ScheduleComp({className, e_data}){
     let contents
-    if (className === 'schedule-name'){
-        contents = linkArr(e_data)
-    }
-    else if (className === 'schedule-date'){
+    
+    if (className === 'schedule-date'){
         contents = dateArr(e_data)
     }
     else contents = genArr(e_data)
+
+    if ("links" in e_data) contents = linkWrapper(contents, e_data.links)
 
 
     return(<div className={className} >
