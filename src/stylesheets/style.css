@@ -194,6 +194,12 @@ nav img {
   .info {
     font-size: 100%;
   }
+  .info-facts {
+    position: relative;
+    z-index: 20;
+    color: white;
+    padding-top: 40%;
+  }
 
   .volunteer a {
     border: #13294b solid 2px;
