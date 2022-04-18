@@ -40,11 +40,10 @@ function Schedule(props){
     
   },[])
 
-  if (!events ) return null;
+  if (!events ) return (<div id="loading-schedule" className="loading"></div>);
 
   const {names, dates, locs, links} = parseEvents(events)
   
-
   return(
     <>
     <div className="schedule-container">
