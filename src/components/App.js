@@ -8,7 +8,7 @@ import TeamProfile from "./TeamProfile";
 
 function App() {
   return (
-    <div className="body-content">
+    <div>
       <nav>
         <img className="navlogo" src="./images/expo.png"></img>
         <a href="https://www.facebook.com/EngineeringCouncilUIUC/">
