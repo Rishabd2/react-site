@@ -9,14 +9,18 @@ function parseEvents(events){
   let dates = []
   let locs = []
   let links = []
-
+  const cur_date = new Date()
   for(let idx in events){
+    
     let event = events[idx]
     if(event.description){
-      if(event.description.includes("#SITE")){
+      const e_date = new Date(event.start.dateTime)
+      const description_match =  event.description.includes("#SITE")
+      const future_event = e_date >= cur_date
+      if(description_match){
       
         names.push(event.summary)
-        dates.push(new Date(event.start.dateTime))
+        dates.push(e_date)
         locs.push(event.location.split(',')[0])
         links.push(event.htmlLink)
       }
