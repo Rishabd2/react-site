@@ -171,6 +171,9 @@ nav img {
     width: 3%;
     margin-top: 0%;
   }
+  .loading{
+    margin-top: 3%;
+  }
 }
 
 /* mobile */
@@ -181,7 +184,7 @@ nav img {
   }
   .info-facts {
     position: relative;
-    text-align: left;
+    text-align: center;
     z-index: 20;
     padding-top: 20%;
   }
@@ -265,6 +268,9 @@ nav img {
     width: 10%;
     margin-top: 7%;
   }
+  .loading{
+    margin-top: 10%;
+  }
 }
 
 .temp {
@@ -314,6 +320,30 @@ nav img {
   color: white;
   position: relative;
   margin-left: 2%;
+}
+
+.loading {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  border: 3px solid #e84a277b;
+  border-radius: 50%;
+  border-top-color: #e84a27;
+  align-items: center;
+  animation: spin 1s ease-in-out infinite;
+  -webkit-animation: spin 1s ease-in-out infinite;
+}
+
+#loading-schedule{
+  border: 3px solid #e84a277b;
+  border-top-color: #e84a27;
+}
+
+@keyframes spin {
+  to { -webkit-transform: rotate(360deg); }
+}
+@-webkit-keyframes spin {
+  to { -webkit-transform: rotate(360deg); }
 }
 
 .table-color {
