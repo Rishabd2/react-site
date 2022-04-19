@@ -88,17 +88,22 @@ nav {
 nav img {
   display: inline-block;
 }
+.info-facts {
+  position: relative;
+  display: flex;
+  flex-flow: column;
+  
+  /* justify-content: center; */
+  z-index: 20;
+  /* padding-top: 10%; */
+}
 
 /* desktop */
 @media only screen and (min-width: 900px) {
   .info {
     font-size: 30px;
   }
-  .info-facts {
-    position: relative;
-    z-index: 20;
-    padding-top: 10%;
-  }
+
   td {
     padding: 20px;
   }
@@ -181,12 +186,7 @@ nav img {
     text-align: center;
     font-size: 100%;
   }
-  .info-facts {
-    position: relative;
-    text-align: center;
-    z-index: 20;
-    padding-top: 20%;
-  }
+ 
   .date-location {
     font-size: 51%;
     text-align: center;
@@ -197,12 +197,8 @@ nav img {
   .info {
     font-size: 100%;
   }
-  .info-facts {
-    position: relative;
-    z-index: 20;
-    color: white;
-    padding-top: 40%;
-  }
+  
+  
 
   .volunteer a {
     border: #13294b solid 2px;
@@ -252,7 +248,7 @@ nav img {
     margin-bottom: 5%;
   }
   .schedule-container{
-    font-size: 3.1vw;
+    font-size: 2.5vw;
     margin-top: 5%;
   }
 
@@ -277,13 +273,13 @@ nav img {
 }
 
 .schedule-container{
-  
   display: flex;
   flex-flow: row nowrap;
   flex: 1 1 auto;
   width: auto;
   justify-content: center;
   align-items: center;
+  
 }
 
 .schedule-name{
@@ -328,7 +324,7 @@ nav img {
   border: 3px solid #e84a277b;
   border-radius: 50%;
   border-top-color: #e84a27;
-  align-items: center;
+  align-self: center;
   animation: spin 1s ease-in-out infinite;
   -webkit-animation: spin 1s ease-in-out infinite;
 }
@@ -355,17 +351,16 @@ nav img {
 }
 
 .wave-info {
+  display: flex;
+  justify-content: center;
   text-align: center;
   font-size: 36px;
   height: 100vh;
   position: relative;
+  align-items: center;
 }
 
-.info-facts {
-  position: relative;
-  z-index: 20;
-  color: white;
-}
+
 .info-facts a {color: inherit;}
 svg {
   width: 100%;
