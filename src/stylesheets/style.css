@@ -88,15 +88,7 @@ nav {
 nav img {
   display: inline-block;
 }
-.info-facts {
-  position: relative;
-  display: flex;
-  flex-flow: column;
-  
-  /* justify-content: center; */
-  z-index: 20;
-  /* padding-top: 10%; */
-}
+
 
 /* desktop */
 @media only screen and (min-width: 900px) {
@@ -251,13 +243,11 @@ nav img {
     font-size: 2.5vw;
     margin-top: 5%;
   }
+  .schedule-component{
+    margin-bottom: 1%;
+  }
 
-  .schedule-name{
-    margin: 2%;
-  }
-  .schedule-date{
-    margin: 2%;
-  }
+
 
   #calendar-icon{
     width: 10%;
@@ -274,47 +264,43 @@ nav img {
 
 .schedule-container{
   display: flex;
-  flex-flow: row nowrap;
-  flex: 1 1 auto;
-  width: auto;
-  justify-content: center;
-  align-items: center;
-  
+  flex-flow: column nowrap;
+  align-self: center;
+  width: 100%;  
 }
+.schedule-component{
+  display: flex;
+  flex-flow: row ;
+  width: 100%;
+}
+.schedule-container a {
+  text-decoration: none;
+}
+.schedule-container a:link {text-decoration: none;}
+.schedule-container a:visited {text-decoration: none;}
 
 .schedule-name{
-  display: flex;
-  flex-flow: column nowrap;
+  width: 42.5%;
   text-align: end;
+  flex-wrap: nowrap;
   color: white;
-  position: relative;  
-}
-
-.schedule-name a {color: inherit;}
-.schedule-name a:link {text-decoration: none;}
-.schedule-name a:visited {text-decoration: none;}
-.schedule-location a {color: inherit;}
-.schedule-location a:link {text-decoration: none;}
-.schedule-location a:visited {text-decoration: none;}
-
-.schedule-date{
   
-  margin-left: 2%;
-  position: relative;
-  flex-flow: column wrap;
-  align-content: center;
-  text-align: left;
+}
+.schedule-date{
+  /* border: dotted 0.5px white; */
+  width: 15%;
+  
+  text-align: center;
   color: #e84a27;
 }
-.schedule-date a:link {text-decoration: none;}
+
 
 .schedule-location{
+  width: 40%;
   display: flex;
-  flex-flow: column nowrap;
   text-align: start;
   color: white;
-  position: relative;
-  margin-left: 2%;
+  
 }
 
 .loading {
@@ -353,13 +339,21 @@ nav img {
 .wave-info {
   display: flex;
   justify-content: center;
-  text-align: center;
+  flex-direction: column;
   font-size: 36px;
   height: 100vh;
+  width: auto;
   position: relative;
   align-items: center;
 }
 
+.info-facts {
+  position: relative;
+  display: flex;
+  flex-flow: column;
+  z-index: 20;
+  /* padding-top: 10%; */
+}
 
 .info-facts a {color: inherit;}
 svg {

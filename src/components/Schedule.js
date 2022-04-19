@@ -2,7 +2,7 @@ import React, {useState, useEffect} from "react";
 import axios from "axios";
 import ScheduleComp from './ScheduleComp'
 let backend_url = 'https://expo-backend-site.herokuapp.com'
-// let backend_url = 'http://localhost:3002'
+// let backend_url = 'http://192.168.86.59:3002'
 
 function parseEvents(events){
   let names = []
@@ -43,18 +43,32 @@ function Schedule(props){
   if (!events ) return (<div id="loading-schedule" className="loading"></div>);
 
   const {names, dates, locs, links} = parseEvents(events)
-  
-  return(
-    <>
+  let comp_contents = []
+
+  for(let i = 0; i < names.length; i++){
+    comp_contents.push(<ScheduleComp key={i} name={names[i]} date={dates[i]} loc={locs[i]} link={links[i]} />)
+  }
+
+  // return(
+  //   <>
+  //   <div className="schedule-container">
+  //     <ScheduleComp className="schedule-name" e_data={{items: names, links: links}} />
+  //     <ScheduleComp className="schedule-date" e_data={{items: dates,  links: links}} />
+  //     <ScheduleComp className="schedule-location" e_data={{items: locs, links: links}} />
+  //   </div>
+  //   <a href={calURL}><img id="calendar-icon" src="./images/calendar_simple.png" ></img></a>
+  //   </>
+    
+  // )
+
+    return(
+          <>
     <div className="schedule-container">
-      <ScheduleComp className="schedule-name" e_data={{items: names, links: links}} />
-      <ScheduleComp className="schedule-date" e_data={{items: dates,  links: links}} />
-      <ScheduleComp className="schedule-location" e_data={{items: locs, links: links}} />
+      {comp_contents}
     </div>
     <a href={calURL}><img id="calendar-icon" src="./images/calendar_simple.png" ></img></a>
     </>
-    
-  )
+    )
     
     // return (
     //     <div className="schedule-container">
