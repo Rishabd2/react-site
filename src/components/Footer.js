@@ -11,7 +11,9 @@ function Footer(props){
               title="Cole Bemis"
             >
               Cole Bemis
-            </a>{" "}
+            </a>,{" "}
+            <a href="https://www.flaticon.com/authors/freepik">freepik</a>,
+            and <a href="https://www.flaticon.com/authors/riajulislam">riajulislam</a> {" "}
             from{" "}
             <a href="https://www.flaticon.com/" title="Flaticon">
               www.flaticon.com

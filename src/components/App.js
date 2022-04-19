@@ -10,6 +10,9 @@ function App() {
     <div>
       <nav>
         <img className="navlogo" src="./images/expo.png"></img>
+        <a href="https://github.com/ecexpo">
+          <img className="sociallink" src="./images/github.png"></img>
+        </a>
         <a href="https://www.facebook.com/EngineeringCouncilUIUC/">
           <img className="sociallink" src="./images/facebook.png"></img>
         </a>
