@@ -3,6 +3,7 @@ import axios from "axios";
 import ScheduleComp from './ScheduleComp'
 let backend_url = 'https://expo-backend-site.herokuapp.com'
 // let backend_url = 'http://192.168.86.59:3002'
+const calendar_id = 'c_i75tp7crnophbv9fnen57nebio@group.calendar.google.com'
 
 function parseEvents(events){
   let names = []
@@ -36,11 +37,11 @@ function Schedule(props){
   const [events, setEvents] = useState(null)
   const [calURL, setCalURL] = useState(null)
   useEffect(() =>{
-    axios.get(backend_url + '/api/cal').then(resp =>{
-      setCalURL(resp.data["cal_url"])
+    axios.get(backend_url + '/api/cal/'+calendar_id).then(resp =>{
+      setCalURL("https://calendar.google.com/calendar/embed?src="+ calendar_id)
       setEvents(resp.data.items)
-      
-    } )
+    } 
+    )
     
   },[])
 
@@ -53,19 +54,7 @@ function Schedule(props){
     comp_contents.push(<ScheduleComp key={i} name={names[i]} date={dates[i]} loc={locs[i]} link={links[i]} />)
   }
 
-  // return(
-  //   <>
-  //   <div className="schedule-container">
-  //     <ScheduleComp className="schedule-name" e_data={{items: names, links: links}} />
-  //     <ScheduleComp className="schedule-date" e_data={{items: dates,  links: links}} />
-  //     <ScheduleComp className="schedule-location" e_data={{items: locs, links: links}} />
-  //   </div>
-  //   <a href={calURL}><img id="calendar-icon" src="./images/calendar_simple.png" ></img></a>
-  //   </>
-    
-  // )
-
-    return(
+  return(
           <>
     <div className="schedule-container">
       {comp_contents}
@@ -74,29 +63,6 @@ function Schedule(props){
     </>
     )
     
-    // return (
-    //     <div className="schedule-container">
-    //         <div className="schedule-name">
-    //           <div>Name Tag Collection</div>
-    //           <div>Reverse Career Fair</div>
-    //           <div>In-Person Career Fair</div>
-    //           <div>Virtual Career Fair</div>
-    //         </div>
-    //         <div className="schedule-date">
-    //           <div>February 7th</div>
-    //           <div>February 7th</div>
-    //           <div>February 8th</div>
-    //           <div>February 11th</div>
-    //         </div>
-    //         <div className="schedule-location">
-    //           <div>Grainger Library</div>
-    //           <div>Illini Union</div>
-    //           <div>Illini Union</div>
-    //           <div>Handshake</div>
-    //         </div>
-    //       </div>
-          
-    // )
 }
 
 export default Schedule
