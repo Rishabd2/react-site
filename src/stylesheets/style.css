@@ -162,7 +162,6 @@ nav img {
     justify-items: center;
     justify-content: center;
     flex-flow: row wrap;
-    border-radius: 10px;
   }
   #calendar-icon{
     width: 3%;
@@ -570,8 +569,6 @@ h2 {
   font-family: "Montserrat", sans-serif;
   text-align: center;
 }
-
-
 
 #calendar-icon{
   height: auto;
