@@ -1,0 +1,130 @@
+[
+    {
+        "pretty_name": "Co-Directors",
+        "persons":[
+            {
+                "name" : "Bhavika Kagathi",
+                "linkedin_url": "https://www.linkedin.com/in/bhavika-kagathi/",
+                "photo_src":"Bhavika Kagathi Headshot.jpg"
+            },
+            {
+                "name" : "John Gitschlag",
+                "linkedin_url":"https://www.linkedin.com/in/john-gitschlag/",
+                "photo_src":"Jack Gitschlag Headshot.jpg"
+            }
+        ]
+    },
+    {
+        "pretty_name": "Internal Affairs",
+        "persons":[
+            {
+                "name": "Akarsh Vankayalapati",
+                "photo_src": "Akarsh.jpg",
+                "linkedin_url":"https://www.linkedin.com/in/akarsh-v/"
+            },
+            {
+                "name": "Gillian Niezyniecki",
+                "photo_src": "Gillian_Niezyniecki.jpg",
+                "linkedin_url":"https://www.linkedin.com/in/gillian-niezyniecki/"
+            }
+        ]
+    },
+    {
+        "pretty_name": "Secretaries",
+        "persons":[
+            {
+                "name": "Shivani Ramesh",
+                "photo_src":"Shivani Ramesh Headshot.jpg",
+                "linkedin_url":"https://www.linkedin.com/in/shivaniramesh552/"
+            },
+            {
+                "name":"Janani Rajadurai",
+                "photo_src":"JananiRajadurai_Headshot_2021.jpg"
+            }
+        ]
+    },
+    {
+        "pretty_name": "Volunteer Coordinators",
+        "persons":[
+            {
+                "name": "Devika Prasad",
+                "photo_src": "Devika Prasad.jpeg",
+                "linkedin_url": "https://www.linkedin.com/in/devika-prasad/"
+            },
+            {
+                "name":"David Pryce Hodges",
+                "linkedin_url":"https://www.linkedin.com/in/davidprycehodges/",
+                "photo_src":"David Hodges Headshot.jpg"
+            },
+            {
+                "name":"Riya Agarwal",
+                "linkedin_url":"https://www.linkedin.com/in/riya-agrawal-394272228/",
+                "photo_src":"Riya_Agrawal.jpg"
+            },
+            {
+                "name":"Sathvik Rajasekaran",
+                "linkedin_url":"https://www.linkedin.com/in/sathvik-rajasekaran-40a21516a/",
+                "photo_src":"Sathvik.jpg"
+            }
+        ]
+    },
+    {
+        "pretty_name": "Reverse Career Fair Coordinators",
+        "persons":[
+            {
+                "name":"Danny Gentile",
+                "photo_src":"Gentile.jpg",
+                "linkedin_url": "https://www.linkedin.com/in/daniel-gentile-5a142a173/"
+            },
+            {
+                "name":"Isha Akella",
+                "photo_src":"IshaAkella.JPG",
+                "linkedin_url": "https://www.linkedin.com/in/isha-akella/"
+            },
+            {
+                "name":"Lindsay Kwok",
+                "linkedin_url":"https://www.linkedin.com/in/lindsay-kwok/",
+                "photo_src":"Lindsay_Kwok.jpg"
+            },
+            {
+                "name":"Aditi Shah",
+                "linkedin_url":"https://www.linkedin.com/in/aditi-shah-82027521b/",
+                "photo_src":"Aditi.jpeg"
+                
+            },
+            {
+                "name":"Thomas Alakkatt",
+                "photo_src":"Thomas_Alakkatt.jpg"
+            }
+        ]
+    },
+    {
+        "pretty_name": "Publicity",
+        "persons":[
+            {
+                "name":"Josephine Hoppenworth",
+                "photo_src":"Josie Hopp.JPG"
+            },
+            {
+                "name":"Ariya Patel",
+                "photo_src":"Ariya.jpg"
+            }
+        ]
+    },
+    {
+        "pretty_name": "Tech Coordinators",
+        "persons":[
+            {
+                "name": "Ravyu Sivakumaran",
+                "linkedin_url": "https://www.linkedin.com/in/ravyu/",
+                "photo_src":"ravyu.jpg"
+            },
+            {
+                "name":"Shoshanna Perchanok"
+            },
+            {
+                "name":"Karan Samat"
+            }
+        ]
+    }
+]
