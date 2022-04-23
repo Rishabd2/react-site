@@ -8,7 +8,7 @@ function Information(props) {
       <h1 id="content_header">About</h1>
       <div className="information">
         <div className="info">
-          Engineering Career Services and EXPO have joined forces to host the premier<span className="orange"> engineering career fair</span> at the University of Illinois.
+          Engineering Career Services and EXPO have joined forces to host the premier <span className="orange">engineering career fair</span> at the University of Illinois.
         </div>
 
         <div className="facts_container">

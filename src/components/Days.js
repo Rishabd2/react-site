@@ -9,8 +9,8 @@ function Days(props){
             Below are the Handshake links to the fair information as well as which companies will be attending.
             </div>
             <div className="box-row">
-              <a href="https://illinois.joinhandshake.com/stu/career_fairs/28603"> February 8th: <br/>In-Person Fair</a>
-              <a href="https://illinois.joinhandshake.com/stu/career_fairs/28715"> February 11th: <br/>Virtual Fair</a>
+              <a href="https://illinois.joinhandshake.com/stu/career_fairs/28603">In-Person Fair <br/>Handshake</a>
+              <a href="https://illinois.joinhandshake.com/stu/career_fairs/28715">Virtual Fair <br/>Handshake</a>
             </div>
             
           </div>
