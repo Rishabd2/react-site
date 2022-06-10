@@ -1,6 +1,8 @@
 ## This project is live.
 
-View the site at illinoisexpo.org
+View the site at [illinoisexpo.org](illinoisexpo.org)
+
+![GitHub Workflow Status](https://img.shields.io/github/workflow/status/ecexpo/react-site/Build%20and%20Deploy%20production?label=Live%20build)
 
 ## Available Scripts
 
