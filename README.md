@@ -10,7 +10,7 @@ In the project directory, you can run:
 
 ### `npm install`
 
-Installs the required node modules specified by `package.json`. Run this before `npm start`. 
+Installs the required node modules specified by `package.json`. Run this once before `npm start`. 
 
 ### `npm start`
 
